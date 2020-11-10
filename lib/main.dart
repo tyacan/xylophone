@@ -39,6 +39,7 @@ Expanded noteKey(int order, Color color) {
   return Expanded(
     flex: 1,
     child: FlatButton(
+      child: Text(''),
       color: color,
       onPressed: () {
         playNote(order);
